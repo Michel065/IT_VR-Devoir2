@@ -19,4 +19,9 @@ public class ChangeColor : MonoBehaviour
     {
         rend.material.color = Color.green;
     }
+
+    public void OnCorrectSelection()
+    {
+        SetGreen();
+    }
 }
