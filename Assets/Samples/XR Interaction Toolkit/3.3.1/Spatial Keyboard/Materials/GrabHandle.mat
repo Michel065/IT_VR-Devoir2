@@ -137,7 +137,11 @@ Material:
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+<<<<<<< HEAD
 --- !u!114 &1791927398898065287
+=======
+--- !u!114 &5945573589826961918
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -150,7 +154,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Editor::UnityEditor.Rendering.Universal.AssetVersion
   version: 10
+<<<<<<< HEAD
 --- !u!114 &3847959835664820147
+=======
+--- !u!114 &8695968618085263812
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

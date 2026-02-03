@@ -250,6 +250,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -613,6 +617,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -749,6 +757,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: -3.5
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1312,6 +1324,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1397,14 +1413,22 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 174022748}
   m_Enabled: 0
+<<<<<<< HEAD
   serializedVersion: 11
+=======
+  serializedVersion: 12
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_Type: 2
   m_Color: {r: 0.7764706, g: 0.8627451, b: 1, a: 1}
   m_Intensity: 0.5
   m_Range: 0.66
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
+<<<<<<< HEAD
   m_CookieSize: 10
+=======
+  m_CookieSize2D: {x: 10, y: 10}
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_Shadows:
     m_Type: 1
     m_Resolution: 2
@@ -2259,6 +2283,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -2544,6 +2572,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 15
   m_lineSpacingMax: 0
@@ -2760,6 +2792,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -2972,6 +3008,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -4201,6 +4241,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -4527,6 +4571,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -4702,6 +4750,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -4838,6 +4890,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -5031,6 +5087,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -5168,6 +5228,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -5304,6 +5368,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: -5
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -5802,6 +5870,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -5938,6 +6010,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: -0.08
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -7231,6 +7307,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: -3.5
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -7370,6 +7450,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -7890,6 +7974,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -9884,6 +9972,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -10095,6 +10187,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: -3.5
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -10309,6 +10405,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: -5
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -10969,14 +11069,22 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1229174561}
   m_Enabled: 1
+<<<<<<< HEAD
   serializedVersion: 11
+=======
+  serializedVersion: 12
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_Type: 1
   m_Color: {r: 1, g: 0.9671213, b: 0.8632076, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
+<<<<<<< HEAD
   m_CookieSize: 10
+=======
+  m_CookieSize2D: {x: 10, y: 10}
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_Shadows:
     m_Type: 2
     m_Resolution: 0
@@ -11053,6 +11161,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+<<<<<<< HEAD
+=======
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 1
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
 --- !u!1 &1239402356
 GameObject:
   m_ObjectHideFlags: 0
@@ -11683,6 +11811,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -11820,6 +11952,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -13669,6 +13805,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: -3.5
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -13805,6 +13945,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -13890,14 +14034,22 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1557721899}
   m_Enabled: 0
+<<<<<<< HEAD
   serializedVersion: 11
+=======
+  serializedVersion: 12
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_Type: 1
   m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_Intensity: 1
   m_Range: 1
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
+<<<<<<< HEAD
   m_CookieSize: 1.46
+=======
+  m_CookieSize2D: {x: 1.46, y: 1.46}
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_Shadows:
     m_Type: 2
     m_Resolution: -1
@@ -14182,6 +14334,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: -3.5
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -14318,6 +14474,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: -5
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -14454,6 +14614,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -14776,6 +14940,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -15067,6 +15235,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -15292,6 +15464,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: -3.5
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -15428,6 +15604,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -15808,6 +15988,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -15944,6 +16128,10 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -17178,6 +17366,10 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: -3.5
+<<<<<<< HEAD
+=======
+  m_characterHorizontalScale: 1
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -17520,6 +17712,17 @@ PrefabInstance:
       propertyPath: m_UseGravity
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+    - target: {fileID: 657184242222895507, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 657184243640684908, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
     - target: {fileID: 927309121262695183, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -17596,6 +17799,13 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
       objectReference: {fileID: 2100000, guid: 613690cd962241049a0ec289a6ff835e, type: 2}
+<<<<<<< HEAD
+=======
+    - target: {fileID: 3421079552115229881, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
     - target: {fileID: 3922177026488651056, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
       propertyPath: m_HandMeshMaterial
       value: 
@@ -17608,6 +17818,13 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+=======
+    - target: {fileID: 4911947107372535036, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> 9131feb3e14c741e8c3f1791765f7929c50e328b
     - target: {fileID: 5667465548851856616, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
       propertyPath: m_IsActive
       value: 1
