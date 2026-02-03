@@ -13,6 +13,8 @@ public class VRLever : MonoBehaviour
     [Range(0f, 1f)]
     public float startingValue = 0.5f;
 
+    public bool invert;
+
     Quaternion baseLocalRotation;
 
     void Awake()
@@ -29,7 +31,10 @@ public class VRLever : MonoBehaviour
         if (Mathf.Abs(maxValue - minValue) < 0.0001f) return;
 
         float sv = Mathf.Clamp(startingValue, Mathf.Min(minValue, maxValue), Mathf.Max(minValue, maxValue));
+
         float rangeFraction = (sv - minValue) / (maxValue - minValue);
+        if (invert) rangeFraction = 1f - rangeFraction;
+
         float degreeRotation = hinge.limits.min + (hinge.limits.max - hinge.limits.min) * rangeFraction;
 
         Quaternion targetLocalRot = Quaternion.AngleAxis(degreeRotation, hinge.axis) * baseLocalRotation;
@@ -55,6 +60,8 @@ public class VRLever : MonoBehaviour
 
         float t01 = (hinge.angle - hinge.limits.min) / denom;
         t01 = Mathf.Clamp01(t01);
+
+        if (invert) t01 = 1f - t01;
 
         leverOutput = Mathf.Lerp(minValue, maxValue, t01);
     }
