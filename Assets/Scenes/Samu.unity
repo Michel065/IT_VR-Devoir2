@@ -189,7 +189,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 03f4c6e7efd089a4d8abd8c77ac54d28, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.326
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1834,7 +1834,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 152c1f4ae6e5bc54aa2cb7661bedd1ee, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.325
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4317,8 +4317,8 @@ Transform:
   m_GameObject: {fileID: 1179578864}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.9, y: 0.46, z: 11.34}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 24.776, y: 0.46, z: 11.34}
+  m_LocalScale: {x: 0.55323, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
