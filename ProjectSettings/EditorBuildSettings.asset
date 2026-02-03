@@ -8,12 +8,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/John(3-4).unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Sadio.unity
     guid: e53187953a65cb744a39077a1af006ec
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Samu.unity
     guid: 42138ba6516f02e41a49b972fd8e3aec
+  - enabled: 1
+    path: Assets/Scenes/interaction_5.unity
+    guid: 73f37dcae0d464c419432f63921923af
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 141ec0145973e564f9e01c83575bcdb8, type: 2}
