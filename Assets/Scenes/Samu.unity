@@ -4113,9 +4113,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1767192433, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1388535890}
-    - targetCorrespondingSourceObject: {fileID: 1767192433, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1388535894}
   m_SourcePrefab: {fileID: 100100000, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
 --- !u!1 &1006121690 stripped
 GameObject:
@@ -4187,6 +4184,7 @@ MonoBehaviour:
   timerText: {fileID: 2121256723}
   startTime: 150
   teleportTarget: {fileID: 447250262}
+  sceneToLoad: 
 --- !u!1 &1066776504
 GameObject:
   m_ObjectHideFlags: 0
@@ -5499,21 +5497,6 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
---- !u!114 &1388535894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1388535888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c38412040a72cf48925e654d1a5673b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::VRTimer
-  timerText: {fileID: 2121256723}
-  startTime: 5
-  teleportTarget: {fileID: 447250262}
 --- !u!1 &1419817579
 GameObject:
   m_ObjectHideFlags: 0
@@ -8176,6 +8159,59 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1300147083}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2039824706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2039824708}
+  - component: {fileID: 2039824707}
+  m_Layer: 0
+  m_Name: HorsJeu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &2039824707
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039824706}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.9999998, y: 0.20612586, z: 0.2973094}
+  m_Center: {x: 0, y: -0.39693528, z: -0.27739838}
+--- !u!4 &2039824708
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2039824706}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -124.4, z: 125.5}
+  m_LocalScale: {x: 111.74, y: 107.54857, z: 431.43103}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2065357407
 GameObject:
   m_ObjectHideFlags: 0
@@ -8659,3 +8695,4 @@ SceneRoots:
   - {fileID: 161635476}
   - {fileID: 1179578867}
   - {fileID: 447250262}
+  - {fileID: 2039824708}
