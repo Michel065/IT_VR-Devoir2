@@ -10,7 +10,6 @@ public class VRTimer : MonoBehaviour
     public Transform teleportTarget;
     Rigidbody rb;
 
-    public string sceneToLoad;
 
     void Start()
     {
@@ -68,21 +67,11 @@ public class VRTimer : MonoBehaviour
         // vibration, son, événement, etc. 
         if (teleportTarget == null || rb == null) return;
 
-        rb.velocity = Vector3.zero;
+        rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
         rb.position = teleportTarget.position;
         rb.rotation = teleportTarget.rotation;
     }
 
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            rb.velocity = Vector3.zero;
-            rb.angularVelocity = Vector3.zero;
-            rb.position = teleportTarget.position;
-            rb.rotation = teleportTarget.rotation;
-        }
-    }
 }
 

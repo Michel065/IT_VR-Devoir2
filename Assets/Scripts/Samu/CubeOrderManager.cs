@@ -7,6 +7,7 @@ public class CubeOrderManager : MonoBehaviour
     public AudioSource successAudio;
     public AudioSource errorAudio; 
 
+
     public void OnCubeSelected(GameObject selectedObj)
     {
         ChangeColor selectedCube = selectedObj.GetComponent<ChangeColor>();
@@ -32,15 +33,20 @@ public class CubeOrderManager : MonoBehaviour
         else
         {
             // ❌ Mauvais cube
+           Error.SetError();
             Debug.Log("Erreur : mauvais cube !");
             if (errorAudio != null)
                 errorAudio.Play();
+            
         }
 
         // Vérifier si la séquence est terminée
         if (currentIndex >= order.Length)
         {
             Debug.Log("✅ Séquence terminée !");
+
+            // Debug.Log("Nombre erreur " + nbreErreur);
+
             FloorMover floorMover = FindObjectOfType<FloorMover>();
             if (floorMover != null)
                 floorMover.StartMoving();
