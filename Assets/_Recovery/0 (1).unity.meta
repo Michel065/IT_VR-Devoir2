@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Scenes/John(3-4).unity.meta
 guid: f252978fc289de14aa68e4b983d616ed
 ========
 guid: 0c42715c9879c2342b8a56bff9b1c933
 >>>>>>>> Samu:Assets/_Recovery/0 (1).unity.meta
+=======
+guid: 9bd6e23672edf0546a61b4e5a6f6058e
+>>>>>>> remotes/origin/Sadio
 DefaultImporter:
   externalObjects: {}
   userData: 

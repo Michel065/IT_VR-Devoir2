@@ -1,7 +1,10 @@
 ﻿<Solution>
   <Project Path="Assembly-CSharp.csproj" />
   <Project Path="Unity.XR.Hands.Samples.VisualizerSample.csproj" />
+<<<<<<< HEAD
   <Project Path="Unity.XR.Interaction.Toolkit.Samples.DeviceSimulator.csproj" />
+=======
+>>>>>>> remotes/origin/Sadio
   <Project Path="Unity.XR.Hands.Samples.HandCapture.csproj" />
   <Project Path="Unity.XR.Interaction.Toolkit.Samples.SpatialKeyboard.Editor.csproj" />
   <Project Path="Unity.XR.Interaction.Toolkit.Samples.SpatialKeyboard.csproj" />
