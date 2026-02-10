@@ -1,25 +1,11 @@
 using UnityEngine;
-<<<<<<< HEAD
-=======
 using TMPro;
->>>>>>> remotes/origin/Sadio
 
 public class CrystalAssemblyManager : MonoBehaviour
 {
     [Header("Configuration")]
     public int totalFragments = 5;
     
-<<<<<<< HEAD
-    public int currentExpectedOrder = 0; // CHANGÉ EN PUBLIC pour debug
-    private int placedFragments = 0;
-    
-    [Header("Événements")]
-    public UnityEngine.Events.UnityEvent onCrystalComplete;
-    
-    void Start()
-    {
-        Debug.Log($"🎮 CrystalAssemblyManager démarré. Prochain fragment attendu : {currentExpectedOrder}");
-=======
     [Header("Référence au système de polissage")]
     public GameObject assembledCrystal;
     public CrystalPolishing polishingScript;
@@ -86,17 +72,12 @@ public class CrystalAssemblyManager : MonoBehaviour
         
         Debug.Log($"🎮 Manager prêt. Prochain fragment : {currentExpectedOrder}");
         Debug.Log("==========================================");
->>>>>>> remotes/origin/Sadio
     }
     
     public bool CanPlaceFragment(int fragmentOrder)
     {
         bool result = fragmentOrder == currentExpectedOrder;
-<<<<<<< HEAD
-        Debug.Log($"🔍 CanPlaceFragment({fragmentOrder}) ? Attendu={currentExpectedOrder} → {result}");
-=======
         Debug.Log($"🔍 CanPlaceFragment({fragmentOrder}) ? → {result}");
->>>>>>> remotes/origin/Sadio
         return result;
     }
     
@@ -105,12 +86,7 @@ public class CrystalAssemblyManager : MonoBehaviour
         placedFragments++;
         currentExpectedOrder++;
         
-<<<<<<< HEAD
-        Debug.Log($"✅ Fragment {fragmentOrder} enregistré ! Progression : {placedFragments}/{totalFragments}");
-        Debug.Log($"➡️ Prochain fragment attendu : {currentExpectedOrder}");
-=======
         Debug.Log($"✅ Fragment {fragmentOrder} enregistré ! {placedFragments}/{totalFragments}");
->>>>>>> remotes/origin/Sadio
         
         if (placedFragments >= totalFragments)
         {
@@ -118,13 +94,6 @@ public class CrystalAssemblyManager : MonoBehaviour
         }
     }
     
-<<<<<<< HEAD
-    void OnCrystalCompleted()
-    {
-        Debug.Log("🎉🎉🎉 CRISTAL ASSEMBLÉ AVEC SUCCÈS !");
-        onCrystalComplete?.Invoke();
-    }
-=======
     /// <summary>
     /// ⭐ NOUVEAU : Enregistrer une erreur
     /// </summary>
@@ -263,5 +232,4 @@ public class CrystalAssemblyManager : MonoBehaviour
     {
         return assemblyEndTime - assemblyStartTime;
     }
->>>>>>> remotes/origin/Sadio
 }
