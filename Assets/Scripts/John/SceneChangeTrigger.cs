@@ -1,18 +1,22 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneChangeTrigger : MonoBehaviour
+public class SceneLoader: MonoBehaviour
 {
-    [SerializeField] int sceneBuildIndex = 1;
+    public string defaultScene;
 
-    bool done;
-
-    void OnTriggerEnter(Collider other)
+    public void ChangeScene(string sceneName)
     {
-        if (done) return;
+        SceneManager.LoadScene(sceneName);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
         if (!other.CompareTag("Player")) return;
 
-        done = true;
-        SceneManager.LoadScene(sceneBuildIndex);
+        if (!string.IsNullOrEmpty(defaultScene))
+        {
+            ChangeScene(defaultScene);
+        }
     }
 }
