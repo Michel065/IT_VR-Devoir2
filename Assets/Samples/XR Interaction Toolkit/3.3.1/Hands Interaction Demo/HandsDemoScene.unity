@@ -285,14 +285,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-<<<<<<< HEAD
 --- !u!4 &65717051 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5030734267259534325, guid: e2698219e3231e94c8765d49b9dd5cff, type: 3}
   m_PrefabInstance: {fileID: 611616339}
   m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> remotes/origin/Sadio
 --- !u!1 &89318626
 GameObject:
   m_ObjectHideFlags: 0
@@ -3612,13 +3609,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1129778166}
     m_Modifications:
-<<<<<<< HEAD
     - target: {fileID: 1988286665728152634, guid: f5afcb7f49afad5419049090809f5cc7, type: 3}
       propertyPath: m_PermittedDisplacementAxes
       value: -1
       objectReference: {fileID: 0}
-=======
->>>>>>> remotes/origin/Sadio
     - target: {fileID: 5268460675038366900, guid: f5afcb7f49afad5419049090809f5cc7, type: 3}
       propertyPath: m_Interpolate
       value: 0
@@ -4446,14 +4440,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 1.025}
   m_SizeDelta: {x: 400, y: 600}
   m_Pivot: {x: 0.5, y: 0.5}
-<<<<<<< HEAD
-=======
---- !u!4 &1121306490 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5030734267259534325, guid: e2698219e3231e94c8765d49b9dd5cff, type: 3}
-  m_PrefabInstance: {fileID: 611616339}
-  m_PrefabAsset: {fileID: 0}
->>>>>>> remotes/origin/Sadio
 --- !u!1 &1129778165
 GameObject:
   m_ObjectHideFlags: 0
@@ -8374,17 +8360,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-<<<<<<< HEAD
-=======
-    - target: {fileID: 657184242222895507, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 657184243640684908, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
->>>>>>> remotes/origin/Sadio
     - target: {fileID: 2218496723442559053, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -8433,27 +8408,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: XR Origin Hands (XR Rig)
       objectReference: {fileID: 0}
-<<<<<<< HEAD
-=======
-    - target: {fileID: 3421079552115229881, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4911947107372535036, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
->>>>>>> remotes/origin/Sadio
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 657184242161839408, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
       insertIndex: -1
-<<<<<<< HEAD
       addedObject: {fileID: 65717051}
-=======
-      addedObject: {fileID: 1121306490}
->>>>>>> remotes/origin/Sadio
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6878e1999eb4b44a9f5a263af86c185, type: 3}
 --- !u!1001 &5715416335952834191
@@ -9005,13 +8965,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TableHandle
       objectReference: {fileID: 0}
-<<<<<<< HEAD
     - target: {fileID: 7403072356416083929, guid: ed5fdb8d3e523e94ca6d8a239d40615a, type: 3}
       propertyPath: m_PermittedDisplacementAxes
       value: -1
       objectReference: {fileID: 0}
-=======
->>>>>>> remotes/origin/Sadio
     - target: {fileID: 7403072356416083930, guid: ed5fdb8d3e523e94ca6d8a239d40615a, type: 3}
       propertyPath: m_RootOrder
       value: 4
