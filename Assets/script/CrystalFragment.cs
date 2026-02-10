@@ -21,18 +21,27 @@ public class CrystalFragment : MonoBehaviour
     private Material originalMaterial;
     private Renderer fragmentRenderer;
     private Rigidbody rb;
+    private AudioSource audioSource;
 
     void Start()
     {
         grabInteractable = GetComponent<UnityEngine.XR.Interaction.Toolkit.Interactables.XRGrabInteractable>();
         assemblyManager = FindObjectOfType<CrystalAssemblyManager>();
-        scoringSystem = FindObjectOfType<CrystalScoringSystem>(); // ✅ AJOUT
+        scoringSystem = FindObjectOfType<CrystalScoringSystem>();
 
         fragmentRenderer = GetComponent<Renderer>();
         rb = GetComponent<Rigidbody>();
 
         if (fragmentRenderer != null)
             originalMaterial = fragmentRenderer.material;
+
+        // Setup AudioSource pour ce fragment
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+            audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource.playOnAwake = false;
+        audioSource.volume = 1f;
+        audioSource.spatialBlend = 0f; // 0 = 2D pour feedback immédiat, 1 = 3D si immersif
 
         if (grabInteractable == null)
             Debug.LogError($"❌ {gameObject.name} : XRGrabInteractable manquant !", this);
@@ -52,34 +61,28 @@ public class CrystalFragment : MonoBehaviour
 
     void OnReleased(SelectExitEventArgs args)
     {
-        if (isSnapped) return;
-        if (snapTarget == null) return;
+        if (isSnapped || snapTarget == null) return;
 
         float distance = Vector3.Distance(transform.position, snapTarget.position);
         Debug.Log($"📏 Distance: {distance:F3}m (max: {snapDistance:F3}m)");
 
         if (distance <= snapDistance)
-        {
-            TrySnap(distance); // ✅ PASSAGE DE LA DISTANCE
-        }
+            TrySnap(distance);
     }
 
     void TrySnap(float distance)
     {
         if (assemblyManager != null && assemblyManager.CanPlaceFragment(assemblyOrder))
-        {
-            SnapSuccess(distance); // ✅
-        }
+            SnapSuccess(distance);
         else
-        {
             SnapError();
-        }
     }
 
     void SnapSuccess(float distance)
     {
         isSnapped = true;
 
+        // Positionner et bloquer le fragment
         transform.position = snapTarget.position;
         transform.rotation = snapTarget.rotation;
 
@@ -98,6 +101,7 @@ public class CrystalFragment : MonoBehaviour
 
         gameObject.layer = LayerMask.NameToLayer("Ignore Raycast");
 
+        // Changement visuel
         if (fragmentRenderer != null)
         {
             Material newMat = new Material(fragmentRenderer.material);
@@ -106,17 +110,23 @@ public class CrystalFragment : MonoBehaviour
             fragmentRenderer.material = newMat;
         }
 
+        // Son
         if (snapSuccessSound != null)
-            AudioSource.PlayClipAtPoint(snapSuccessSound, transform.position, 0.5f);
+        {
+            Debug.Log("🔊 Lecture SnapSuccess");
+            audioSource.PlayOneShot(snapSuccessSound, 1f);
+        }
 
+        // Particules
         if (successParticles != null)
             Instantiate(successParticles, transform.position, Quaternion.identity);
 
+        // Manager et scoring
         if (assemblyManager != null)
             assemblyManager.RegisterFragment(assemblyOrder);
 
         if (scoringSystem != null)
-            scoringSystem.OnFragmentPlaced(distance); // ✅ distance valide
+            scoringSystem.OnFragmentPlaced(distance);
 
         Debug.Log($"✅ {gameObject.name} VERROUILLÉ DÉFINITIVEMENT !");
     }
@@ -125,14 +135,17 @@ public class CrystalFragment : MonoBehaviour
     {
         Debug.Log($"❌ Mauvais ordre pour {gameObject.name}");
 
-        if (fragmentRenderer != null)
-            StartCoroutine(FlashRed());
+        if (assemblyManager != null)
+            assemblyManager.RegisterError();
 
         if (scoringSystem != null)
             scoringSystem.OnError();
 
+        if (fragmentRenderer != null)
+            StartCoroutine(FlashRed());
+
         if (snapErrorSound != null)
-            AudioSource.PlayClipAtPoint(snapErrorSound, transform.position, 0.5f);
+            audioSource.PlayOneShot(snapErrorSound, 1f);
     }
 
     System.Collections.IEnumerator FlashRed()
