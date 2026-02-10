@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: cfe6f2589d85f674d87a367b81575bbf
+=======
+<<<<<<<< HEAD:Assets/Scenes/interaction_5.unity.meta
+guid: 73f37dcae0d464c419432f63921923af
+========
+guid: 0757df741fe1af94cad2826a654888c5
+>>>>>>>> Samu:Assets/_Recovery/0.unity.meta
+>>>>>>> Samu
 DefaultImporter:
   externalObjects: {}
   userData: 
